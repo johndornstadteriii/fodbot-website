@@ -2,6 +2,8 @@
 const nextConfig = {
   output: "export",
   trailingSlash: true,
+  basePath: "/fodbot-website",
+  assetPrefix: "/fodbot-website",
   images: {
     unoptimized: true,
     remotePatterns: [
