@@ -15,7 +15,7 @@ export const siteConfig = {
   demoLink: "#contact", // update with Calendly or demo scheduler URL
   pilotApplyLink: "#contact",
   downloadPilotOverview: "#", // update with PDF link
-  youtubeVideoId: "", // ← Paste your YouTube video ID here (e.g. "dQw4w9WgXcQ")
+  youtubeVideoId: "IPTjbgsQV1o",
   socialLinks: {
     linkedin: "#",
     twitter: "#",

@@ -27,30 +27,11 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Right side decorative element */}
-      <div className="absolute right-0 top-0 bottom-0 w-1/2 overflow-hidden pointer-events-none hidden xl:block">
+      {/* Right side — drop fodbot-hero.png into public/images/ to activate */}
+      {/* <div className="absolute right-0 top-0 bottom-0 w-1/2 overflow-hidden pointer-events-none hidden xl:block">
         <div className="absolute inset-0 bg-gradient-to-l from-fodbot-dark-bg via-transparent to-transparent z-10" />
-        {/* Robot placeholder with runway-inspired overlay */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="relative w-full h-full flex items-center justify-end pr-16 pt-20">
-            {/* Placeholder silhouette / hero image area */}
-            <div className="relative w-[500px] h-[340px] rounded-lg overflow-hidden border border-fodbot-dark-border bg-fodbot-dark-card/30">
-              <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 opacity-30">
-                <div className="w-16 h-16 border-2 border-fodbot-gold/40 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 border-2 border-fodbot-gold/60 rounded-full" />
-                </div>
-                <span className="text-xs font-body text-fodbot-silver tracking-widest uppercase">
-                  Product Render
-                </span>
-              </div>
-              {/* Replace the above with: */}
-              {/* <Image src="/images/fodbot-hero.png" alt="FODBOT Autonomous FOD Removal Robot" fill className="object-contain" /> */}
-              <div className="absolute bottom-0 left-0 right-0 h-px bg-fodbot-gold/20" />
-              <div className="absolute top-0 left-0 right-0 h-px bg-fodbot-gold/20" />
-            </div>
-          </div>
-        </div>
-      </div>
+        <Image src="/images/fodbot-hero.png" alt="FODBOT robot" fill className="object-contain object-right pt-20 pr-16" />
+      </div> */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         <div className="max-w-2xl xl:max-w-3xl">
